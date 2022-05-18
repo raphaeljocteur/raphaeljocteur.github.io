@@ -100,10 +100,10 @@
 
         <div class="container px-4 py-5">
 
-            <h1 class="pb-2 border-bottom">Inari</h1>
+            <h1 class="pb-2 border-bottom">WhichCraft</h1>
 
-            <a class="btn btn-lg btn-primary" href="https://drive.google.com/file/d/1eWduSLvI_0qqQQmdT95Jc7Id0vJrn5KS/view?usp=sharing">Download Build</a>
-            <a class="btn btn-lg btn-secondary" href="https://drive.google.com/file/d/1lBLscbgRSzfBwmh9aViTU7UTgfBl2QnO/view?usp=sharing">Download Presentation support</a>
+            <a class="btn btn-lg btn-primary" href="https://drive.google.com/file/d/1wgGsr21tSzAarPkdWsrZPQztLfkakPpM/view?usp=sharing">Download Build</a>
+            <a class="btn btn-lg btn-secondary" href="https://docs.google.com/presentation/d/1xHlDS9RcaNbvhdfH-9C1WWD3sTQi7mJ_w27pjm0Cqic/edit?usp=sharing">Download Presentation support</a>
 
         </div>
 
@@ -116,11 +116,11 @@
 
                     <h3 class="pb-2 border-bottom">Characteristics</h3>
                     <ul>
-                        <li>Game type : 3D platformer / Puzzle </li>
-                        <li>References : Portal / Zelda BOTW / Ratchet & Clank : a crack in time </li>
+                        <li>Game type : Top Down / Adventure / Metroid-Like </li>
+                        <li>References : Battlerite / Magicka </li>
                         <li>Target : Core Gamer </li>
                         <li>Duration : 12 weeks </li>
-                        <li>Release : 2019 </li>
+                        <li>Release : 2020 </li>
                         <li>Language : C# </li>
                         <li>Engine : Unity</li>
                     </ul>
@@ -165,7 +165,7 @@
 
         <div class="container px-4 py-5" id="custom-cards">
             <h3 class="pb-2 border-bottom">Description</h3>
-            <p>A dark technology powered by a mysterious energy is corumpting human-beings soul, as Inari, last kami alive, your mission is to climb the tower where the mysterious energy source is kept. Pass multiple enigmatic rooms, use your duplication powers to establish a delayed solo cooperation gameplay, and discover the majesty of this evil tower.</p>
+            <p>After an explosion in the laboratory of the ancient forest, you, an alchemical puppet, woke up and found your Grand'Pa unconscious. Go on an adventure in the magic woods to find a soul fragment to revive him. During your journey, you'll learn how to use alchemy to craft powerful spells and get rid off the naughty monsters.</p>
         </div>
 
         <div class="b-example-divider"></div>
@@ -177,30 +177,30 @@
                 <div class="col d-flex align-items-start">
 
                     <div>
-                        <h2>Camera</h2>
-                        <p>In this 3rd person game we needed a camera wo could see all around the player so we choose to make a camera inspired by Zelda Breath of the wild using cinemachine</p>
-                    </div>
-                </div>
-                <div class="col d-flex align-items-start">
-
-                    <div>
-                        <h2>Physicals elements</h2>
-                        <p>We need pushables and pullables boxes, they could also be stackables on top of each other. My job was to ensure that the physics works correctly on cases like push against a wall, pull a stacked box on top of one another, etc .</p>
+                        <h2>Monsters A.I</h2>
+                        <p>Implementing a behaviour tree to manage monster pattern</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
 
                     <div>
                         <h2>Character Controls</h2>
-                        <p>Since i made the camera, i need to make the character control work with it, if you push your joystick forward you needed to go in the camera direction. I also made basic control like jump and animation controller.</p>
+                        <p>Implementing Character movement and collisions with his world.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+
+                    <div>
+                        <h2>Scene Transition</h2>
+                        <p>Managing the warp between each room. Creating a system with in out warp who contains data on how the character should appear (going south, east, north or west). </p>
                     </div>
                 </div>
 
                 <div class="col d-flex align-items-start">
 
                     <div>
-                        <h2>Camera Feedback</h2>
-                        <p>When you activate button or events like opening door, we needed to show what change in the world. To do so i made the camera travel to the destination that needed to be showed and come back to the player at the end.</p>
+                        <h2>Camera</h2>
+                        <p>Creating a Top Down Camera Who follow character.</p>
                     </div>
                 </div>
 
